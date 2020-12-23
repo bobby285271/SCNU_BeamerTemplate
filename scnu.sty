@@ -69,8 +69,8 @@
 %%%
 
 % Background
-\pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{res/scnu_background}
-\setbeamertemplate{background}{\pgfuseimage{bg}}
+% \pgfdeclareimage[width=\paperwidth,height=\paperheight]{bg}{res/scnu_background}
+% \setbeamertemplate{background}{\pgfuseimage{bg}}
 
 % Colors
 %\usecolortheme[RGB={182,11,45}]{structure}
@@ -119,18 +119,18 @@
   \logo{\pgfuseimage{logo}}%
   \ifdim\@tempdimb>0pt%
     \advance\@tempdimb by 1.125ex%
-    \begin{beamercolorbox}[wd=.8\paperwidth,ht=\@tempdimb]{section in head/foot}%
-      \vbox to\@tempdimb{\vfil\insertsectionnavigationhorizontal{.5\textwidth}{\hskip0pt plus1filll}{}\vfil}%
+    \begin{beamercolorbox}[wd=1\paperwidth,ht=\@tempdimb]{section in head/foot}%
+      \vbox to\@tempdimb{\vfil\insertsectionnavigationhorizontal{.26\textwidth}{\hskip0pt plus1filll}{}\vfil}%
     \end{beamercolorbox}%
     %% \begin{beamercolorbox}[wd=.4\paperwidth,ht=\@tempdimb,center]{subsection in head/foot}%
     %%   \vbox to\@tempdimb{\vfil\textbf{\footnotesize\insertshortinstitute~~}\vfil}%
     %% \end{beamercolorbox}%
-    \begin{beamercolorbox}[wd=.135\paperwidth,ht=\@tempdimb,center]{subsection in head/foot}%
-      \vbox to\@tempdimb{\vfil\pgfuseimage{title_logo}\vfil}%
-    \end{beamercolorbox}%
-    \begin{beamercolorbox}[wd=.065\paperwidth,ht=\@tempdimb,center]{subsection in head/foot}%
-      \vbox to\@tempdimb{\vfil\insertlogo\vfil\vfil}%
-    \end{beamercolorbox}%
+   % \begin{beamercolorbox}[wd=.135\paperwidth,ht=\@tempdimb,center]{subsection in head/foot}%
+   %   \vbox to\@tempdimb{\vfil\pgfuseimage{title_logo}\vfil}%
+   % \end{beamercolorbox}%
+    %\begin{beamercolorbox}[wd=.065\paperwidth,ht=\@tempdimb,center]{subsection in head/foot}%
+   %   \vbox to\@tempdimb{\vfil\insertlogo\vfil\vfil}%
+  %  \end{beamercolorbox}%
   \fi%
 }
 
